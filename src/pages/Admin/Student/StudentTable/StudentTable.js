@@ -36,7 +36,7 @@ const StudentTable = () => {
   const [data, setData] = useState([]);
 
   const userList = async () => {
-    const user = await Axios.get("http://localhost:3003/users/student",{
+    const user = await Axios.get("https://prabhatechlmsserver.onrender.com/users/student",{
         headers:{
             "Authorization":"Bearer "+localStorage.getItem("auth_token")
         }

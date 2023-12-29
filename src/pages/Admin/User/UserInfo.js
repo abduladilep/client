@@ -16,7 +16,7 @@ function userInfo() {
     // Here you can send the data to the backend API
     console.log("Student data to be saved:", data);
     // setLoading(true);
-    fetch("http://localhost:3003/auth/adduser", {
+    fetch("https://prabhatechlmsserver.onrender.com/auth/adduser", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

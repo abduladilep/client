@@ -22,7 +22,7 @@ const Register = () => {
   const formSubmitHandler = (e) => {
     e.preventDefault();
     setLoading(true);
-    fetch("http://localhost:3003/auth/register", {
+    fetch("https://prabhatechlmsserver.onrender.com/auth/register", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

@@ -10,7 +10,7 @@ export const getCourses = (courseInfo) => {
 
 export const fetchCourseInfo = () => {
   return (dispatch) => {
-    Axios.get("http://localhost:3003/get-courses", {
+    Axios.get("https://prabhatechlmsserver.onrender.com/get-courses", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("auth_token"),
       },
@@ -29,7 +29,7 @@ export const fetchCourseInfo = () => {
 export const deleteCourseItem = (courseId) => {
   return (dispatch) => {
     try {
-        fetch("http://localhost:3003/delete", {
+        fetch("https://prabhatechlmsserver.onrender.com/delete", {
             method: "delete",
             headers: {
               Authorization: "Bearer " + localStorage.getItem("auth_token"),

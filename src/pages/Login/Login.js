@@ -67,7 +67,7 @@ const Login = () => {
     console.log("Backend URL:", "/auth/login");
     console.log("Request Body:", JSON.stringify({ email, password }));
   
-    fetch("http://localhost:3003/auth/login", {
+    fetch("https://prabhatechlmsserver.onrender.com/auth/login", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

@@ -122,7 +122,7 @@ const Dashboard = () => {
         <Container>
           <div className={styles.dashboard__header__name} style={{marginTop:"120px"}}>
             <h2 className={styles.dashboard__name}>{user && user.userName}</h2>
-            <Link to="/">Dashboard</Link>
+            <Link to="/dashboard">Dashboard</Link>
           </div>
         </Container>
 

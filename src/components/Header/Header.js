@@ -77,7 +77,7 @@ const Header = () => {
             }
             {
               user.role==="Student" &&<><li>
-              <NavLink onClick={toggleClose} to="/">Dashboard</NavLink>
+              <NavLink onClick={toggleClose} to="/dashboard">Dashboard</NavLink>
             </li>
             <li>
               <NavLink onClick={toggleClose} to="/ucam">UCAM</NavLink>
@@ -149,7 +149,7 @@ const Header = () => {
       ) : (
         <div className="d-flex list-unstyled nav__list" > 
           <li  className="nav__item">
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           </li>
           <li  className="nav__item"> 
             <NavLink to="/Login">Login</NavLink>

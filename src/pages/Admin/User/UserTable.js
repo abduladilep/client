@@ -45,7 +45,7 @@ function userTable() {
   const [selectedUser, setSelectedUser] = useState(null);
     const userList = async () => {
 
-      const user = await Axios.get("http://localhost:3003/users/user",{
+      const user = await Axios.get("https://prabhatechlmsserver.onrender.com/users/user",{
           headers:{
               "Authorization":"Bearer "+localStorage.getItem("auth_token")
           }
@@ -78,7 +78,7 @@ function userTable() {
     const handleConfirmDelete = async () => {
       try {
         // Perform the delete operation using the selectedUser._id
-        await Axios.delete(`http://localhost:3003/users/delete/${selectedUser._id}`, {
+        await Axios.delete(`https://prabhatechlmsserver.onrender.com/users/delete/${selectedUser._id}`, {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("auth_token"),
           },

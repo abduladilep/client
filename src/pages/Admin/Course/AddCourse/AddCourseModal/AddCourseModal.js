@@ -37,7 +37,7 @@ const AddCourseModal = () => {
     formData.append("courseDescription", courseDescription);
     formData.append("img", courseThumbnail);
 console.log("course",formData);
-    fetch("http://localhost:3003/post-course", {
+    fetch("https://prabhatechlmsserver.onrender.com/post-course", {
       body: formData,
       method: "post",
       headers: {
