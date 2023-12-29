@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65fbf212.css",
+    "main.js": "/static/js/main.5225858f.js",
+    "static/media/hero-img1.png": "/static/media/hero-img1.12a6ce0ca7090bbe2a38.png",
+    "static/media/testimonial01.png": "/static/media/testimonial01.ef527bf36f2a27625c23.png",
+    "static/media/web-design.png": "/static/media/web-design.9071c3ef125375e2469a.png",
+    "static/media/why-choose-us.png": "/static/media/why-choose-us.5ec7e3b24c1cb791bf4c.png",
+    "static/media/seo.png": "/static/media/seo.b323da636359c745b6dc.png",
+    "static/media/kids-learning.png": "/static/media/kids-learning.fcd258b6f9310b2dd2af.png",
+    "static/media/ui-ux.png": "/static/media/ui-ux.0366b465b35da2e796bb.png",
+    "static/media/graphics-design.png": "/static/media/graphics-design.08c25c6b6b3ecac266d2.png",
+    "index.html": "/index.html",
+    "main.65fbf212.css.map": "/static/css/main.65fbf212.css.map",
+    "main.5225858f.js.map": "/static/js/main.5225858f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65fbf212.css",
+    "static/js/main.5225858f.js"
+  ]
+}
