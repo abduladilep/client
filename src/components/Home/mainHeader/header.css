@@ -1,0 +1,132 @@
+
+.header {
+  position: fixed;
+  height: 100px; /* Adjust the height as needed */
+
+  line-height: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust background color as needed */
+  z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 1.3rem;
+}
+
+.nav__item a {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #0a2b1e;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__item a:hover {
+  color: #17bf9e;
+}
+
+.nav__item {
+  text-decoration: none;
+  color: #333;
+}
+.nav__right p {
+  font-weight: 500;
+  color: #0a2b1e;
+  font-size: 1.1rem;
+}
+
+.nav__right p i {
+  font-size: 1.3rem;
+}
+
+.mobile__menu span i {
+  font-size: 1.4rem;
+  color: #0a2b1e;
+  cursor: pointer;
+}
+
+.mobile__menu {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a2b1ec2;
+    z-index: 99;
+    display: none;
+  }
+
+  /* .nav__list {
+    position: absolute;
+    background: #fff;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    padding-top: 80px;
+  } */
+  .nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+  }
+  
+
+  .mobile__menu {
+    display: block;
+  }
+  .nav__right {
+    display: none;
+  }
+
+  .active__menu {
+    display: block;
+  }
+}
+/* .fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; 
+  color: #fff; 
+  padding: 15px; 
+  z-index: 1000; 
+ 
+}
+.logo-image {
+  max-width:15%;
+  height: auto;
+  display: block;
+} */
+.logo-image {
+  width: 15%;
+  height: auto; /* Ensure the image maintains its aspect ratio */
+ padding-top: 20px;
+}

@@ -1,0 +1,55 @@
+.single__course__item {
+  padding: 15px;
+}
+
+.course__img img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.enroll a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #17bf9e;
+}
+
+.lesson,
+.students,
+.price {
+  font-size: 0.9rem;
+  color: #0a2b1e;
+  font-weight: 500;
+}
+
+.lesson i,
+.students i,
+.price i {
+  font-weight: 400;
+}
+
+.course__title {
+  line-height: 2rem;
+}
+
+.course__top__left h2 {
+  font-weight: 600;
+}
+/* Add this to your CSS file or style it inline */
+.message {
+  color: green;
+  font-weight: bold;
+}
+/* Add this to your CSS file or style section */
+.btn-succe {
+  /* background-color: #2d312e;  */
+  /* color: #5dac89;  */
+  /* padding: 10px 15px; Adjust padding as needed */
+  /* border: none;  */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
