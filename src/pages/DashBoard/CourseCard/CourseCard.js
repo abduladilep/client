@@ -14,6 +14,7 @@ const CourseCard = ({title,name,id,img}) => {
             <div className={Styles.overlay}>
             <p className={Styles.text}>View</p>
             </div>
+        
             </Link>
             
             

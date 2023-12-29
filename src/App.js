@@ -277,11 +277,11 @@ const Routing = () => {
       />
 
       <Route
-        path="/"
+        path="/dashboard"
         element={
           <StudentRoute>
             <DashBoard />
-          </StudentRoute>
+          </StudentRoute>  
         }
       />
       <Route
@@ -328,7 +328,7 @@ const Routing = () => {
 
       <Route path="/login" element={<Login />} />
 
-      <Route  path="/home" element={<Home />} />
+      <Route  path="/" element={<Home />} />
 
       <Route exact path="/register" element={<Register />} />
 
